@@ -1,0 +1,48 @@
+/* 颜色变量一律用功能语义命名：写的是"这块颜色在这里是什么意思"，不是"它看起来是什么颜色" */
+:root {
+  --c-surface: #171310;
+  --c-surface-raised: #201a16;
+  --c-surface-sunken: #110e0c;
+  --c-text: #ece3d6;
+  --c-text-muted: #a0928a;
+  --c-text-dim: #6d625b;
+  --c-border: #2e2723;
+
+  --c-mother: #c9a063;
+  --c-sister: #de7a94;
+  --c-ladder: #c2586f;
+
+  --c-watch: #7e93a8;
+  --c-suspicion: #d2793f;
+
+  --c-safe: #7c9a82;
+  --c-warn: #d9a03c;
+  --c-alarm: #d45c4e;
+
+  --c-method-off: #3a332c;
+  --c-method-on: #b99a5e;
+
+  --font-num: 'SFMono-Regular', 'Consolas', 'Menlo', 'Roboto Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: var(--c-text);
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  padding: 2px 0;
+}
